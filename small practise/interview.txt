@@ -1,0 +1,60 @@
+1. Log search:
+1. populary page (page hit, dwell time, activity happend on a page)
+    The activity type (company, research document)
+2. Search typing habbits.  hierarcy clustering 
+3. cluster users into different groups
+4. Leaving page
+5. Reconstruct query (user-tree-structure activity type)
+
+
+Entity Recognition:
+1. No training corpus
+2. training rules
+3. Our own staff that want to be recognized
+4. Procedure to construct the corpus. (not just random staff) (sentence structure, noise added, how to solve ambiguity)
+
+
+The first difficulity:
+1. unreliable or missing data:
+    We have many data in our database but it only recorded a search which is successful (search for sth and click and view the document), of course we can useful information from that such as documents which are viewed or downloaded mostly but since the data in the database are already filtered, there's a lot staff missing. Such as: 
+    1.1. Failure search and why?
+    1.2. How many searched before a successfuly search
+    1.3. What kind of search query sentences lead to the most popular search
+    1.4. Popular page, dwell time and entities happend on a search page..
+
+
+Session is really important and I used two types of sessions. One is user session (define force log out time)
+The other is time-slot session
+
+1. Parsing raw IIS logs (python and regular expression)
+2. Filtering data (filter out automatic page loads and javascript)
+3. Utality function to group (attributes), compute time ....collect features
+
+
+Clustering:
+1. decide feature
+2. Demonsion reduction (course, human-mind or by.. PCA)
+
+
+Discover the posibilities with log files
+1. By find their search patterns, how to define and design our first autocomplete release by analyzing their typing or search patterns.
+use parents, quotes or stars.
+
+2. Hierarchy clustering. Long sentence by documents type is child of a phrase, phrase is a type
+
+
+1. Typical workflow in Pivotal (data science team)
+2. Difference between data science and software engieering role
+    for most company, they analyze their company's data to imporve.. whatever, but from what I saw from the websites, pivotal's data sciecne team seems with working with customers and help them to solve problems.
+3. If you want to solve entity recognition problem, will the team consider using already build library (like the lingping or stanford library?)
+
+
+Pivotal is a company that provides software and service to company, 
+Pivotal offers a modern approach to technology that organizations need to thrive in a new era of business innovation. Our solutions intersect cloud, big data and agile development, creating a framework that increases data leverage, accelerates application delivery, and decreases costs, while providing enterprises the speed and scale they need to compete.
+
+By what I know, it's like different company (traditional) would have problems and pivotal help them to solve it in more than a BI way, show them the problem can be solved by big data analytics and that can be deployed in big data platform
+
+http://pivotal.io/about
+
+
+http://clds.sdsc.edu/sites/clds.sdsc.edu/files/Pivotal_DS_supercomputing2013.pdf

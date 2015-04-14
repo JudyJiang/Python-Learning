@@ -1,8 +1,7 @@
 def list_dec(lis, dec_type):
 	return [dec_type(e) for e in lis]
 
-def dec_res_printing(lis):
-	pass
+
 
 def minimumfile(filepath, delimiter):
 	f = open(filepath, 'r')
@@ -17,5 +16,3 @@ def minimumfile(filepath, delimiter):
 
 if __name__ == '__main__':
 	print minimumfile('largest_three_three.txt', ' ')
-3 15 137
-3 13 137
