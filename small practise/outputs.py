@@ -33,7 +33,7 @@ def add_to_tree(root, value_string):
 #in the first run 'root' is an empty dictionary, {}, then root = {a:{}}
 #in the second run 'root' is {a:{}} and put 'b' as its children's key-value
 
-my_string = 'abc'
-tree = {}
-add_to_tree(tree, my_string)
-print (tree)
+#my_string = 'abc'
+#tree = {}
+#add_to_tree(tree, my_string)
+#print (tree)
