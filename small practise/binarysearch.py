@@ -35,11 +35,8 @@ def binarysearch(left ,right, func, goal, prec=PRECISION):
 		else:
 			if res > goal:
 				right = mid
-				count += 1
 			else:
 				left = mid
-				count += 1
-		#return mid
 
 def binarysolver(goal, func):
 	return binarysearch(None, None, func, goal)
