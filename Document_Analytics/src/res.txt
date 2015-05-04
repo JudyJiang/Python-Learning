@@ -1,0 +1,105 @@
+ ['Headline', 'Contributor', 'Company','Category','Date','Geography','Language'],
+ colors: ['MediumVioletRed', 'steelblue','darkorange','darkgreen','seagreen','springgreen','lightsalmon'],
+
+
+
+Contributor:
+'JP Morgan Chase & Co, Research Division', 12280, 908634, 5316
+'Morgan Stanley, Research Division', 11715, 987066, 5400
+'BofA Merrill Lynch, Research Division', 11427, 830793, 5479
+'Barclays Capital, Research Division', 8426, 611310, 2772
+'Citigroup Inc, Research Division', 7434, 518329, 4368
+'Deutsche Bank AG, Research Division', 5597, 419535, 2555
+'Cr\xc3\xa9dit Suisse AG, Research Division', 5579, 417588, 544
+'Goldman Sachs Group Inc., Research Division', 5523, 385836, 561
+'UBS Investment Bank, Research Division', 4289, 284642, 2435
+'Jefferies LLC, Research Division', 3187, 238120, 1572
+'S&P Capital IQ Equity Research', 1286, 199700, 20164
+'Stifel, Nicolaus & Company, Incorporated, Research Division', 835, 60340, 99
+'Oppenheimer & Co. Inc., Research Division', 782, 56476, 474
+'RBC Capital Markets, LLC, Research Division', 730, 47534, 792
+'Piper Jaffray Companies, Research Division', 462, 30250, 347
+'Nomura Securities Co. Ltd., Research Division', 461, 29841, 72
+'Wunderlich Securities Inc., Research Division', 459, 31701, 376
+'Cantor Fitzgerald & Co., Research Division', 323, 26967, 456
+'Sanford C. Bernstein & Co., LLC., Research Division', 309, 17699, 9
+'Raymond James & Associates, Inc., Research Division', 277, 18898, 472
+
+
+Company:
+'Apple Inc.', 585, 58958, 786
+'Google Inc.', 414, 44453, 470
+'Amazon.com Inc.', 400, 421848, 407
+'Vodafone Group Public Limited Company', 332, 32364, 237
+'eBay Inc.', 312, 27162, 209), ('AT&T, Inc.', 302, 22911, 200
+'Facebook, Inc.', 302, 30296, 356
+'General Motors Company', 278, 22467, 147
+'Microsoft Corporation', 260, 53225, 322
+'General Electric Company', 244, 24269, 260
+'Tesco PLC', 244, 22259, 195
+'Yahoo! Inc.', 240, 19931, 186
+'International Business Machines Corporation', 218, 19914, 359
+'Siemens Aktiengesellschaft', 213, 18595, 171
+'Verizon Communications Inc.', 213, 17752, 158
+'Comcast Corporation', 212, 19297, 124
+'Pfizer Inc.', 212, 17836, 179
+'Liberty Global plc', 201, 20012, 212
+'Sanofi', 201, 15178, 80
+'The Procter & Gamble Company', 191, 14522, 191
+
+
+
+Geography: Dominate "Null" values make it less weighted
+'NULL', 30924, 2157397, 15324
+'United States and Canada', 24636, 2058077, 29307
+'United States of America', 12682, 1332776, 7479)
+'Europe', 12210, 880418, 4782
+'Asia / Pacific', 2886, 197577, 1208
+'Australia ', 811, 48492, 386
+'South America', 606, 42697, 234
+'Canada', 531, 36300, 261
+'Japan ', 439, 30332, 194
+'United Kingdom', 368, 24106, 411
+'India ', 228, 15264, 117
+China ', 206, 14886, 222
+'France', 206, 15245, 138
+'Germany', 153, 10539, 153
+'Spain', 144, 8879, 107
+'Hong Kong ', 115, 7952, 68
+'Netherlands', 110, 7472, 72
+'Brazil', 100, 5867, 33
+'Sweden', 100, 6375, 34
+'Norway', 94, 5741, 41
+
+
+
+FIleDate, EditDate, EnterDate (publicsh Date)
+All are sampled based on "Users' Search Perference, how they specified criteria in their searchees"
+
+
+Language should be bottom cause nearly 99% are English
+'123', 88453, 6964352, 61162
+'203', 8, 525, 3
+'139', 4, 209, 2
+'83', 4, 351, 3
+'233', 3, 159, 0
+'202', 1, 65, 0
+'403', 1, 48, 1
+
+
+Category:
+Convertibles Research:
+Derivatives Research:
+Fixed Income/Credit Research:
+Equity Research:
+Political/Geopolitical Research:
+Tax/Accounting Policy Research:
+Foreign Exchange/Currencies Research:
+Commondities Research:
+Credit:
+Economics Research:
+Portfolio Strategy/Asset Allocation:
+Fund Research: 
+Emerging Markets: 
+
+
