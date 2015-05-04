@@ -79,3 +79,9 @@ def main():
 
 if __name__ == '__main__':
 	main()
+
+'''
+notes:
+no knowledge of the k cluster, then random generate the centroids. otherwise, should based on some
+gussing. 
+'''
