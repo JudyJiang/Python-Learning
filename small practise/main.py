@@ -2,6 +2,7 @@ import palindrome
 import outputs
 from linearfunction import linearfunction
 from binarysearch import solve_monotonic, binarysearch
+from fibonacci_sequ import find_fibonacci_index
 
 def filefunc(filepath):
 	f = open(filepath, 'r')
@@ -29,10 +30,17 @@ def test_binarysearch(filepath, inputfunc):
 	res = ' '.join("{}".format(answer) for answer in solutions)
 	print res
 
+def test_fibonacci(filepath, inputfunc):
+	lines = (line.strip('\n') for line in filefunc(filepath))
+	solutions = (inputfunc(int(line)) for line in lines)
+	res = ' '.join(str(ans) for ans in solutions)
+	print res
+
 
 if __name__ == '__main__':
 	#test_palindromes('TestData/palindrome.txt', None, None)
 	#test_linearfunction('TestData/linear_func.txt', linearfunction, None)
-	test_binarysearch('TestData/binarysearch.txt', solve_monotonic)
-	
-	
+	#test_binarysearch('TestData/binarysearch.txt', solve_monotonic)
+	test_fibonacci('TestData/fibonacci.txt', find_fibonacci_index)
+	#498 452 678 350 122 926 386 646 694 944 351 25 718 80 56 798 160 612 225 233 196
+	#498 452 1630 350 122 3031 386 1598 2799 5705 351 25 2823 80 56 2903 160 1564 225 233 196
