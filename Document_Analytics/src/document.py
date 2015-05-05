@@ -1,6 +1,8 @@
 import sys
 from utility import *
 
+PTHRESOLD = 1000
+
 #headline
 #contributor3 
 #primary-company

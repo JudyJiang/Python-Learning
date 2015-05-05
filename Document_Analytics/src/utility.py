@@ -1,11 +1,13 @@
 import os
 import csv
+import sys
 from itertools import groupby
 
 DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 docFile = os.path.join(DIR, 'data/documents.csv')
 contributorFile = os.path.join(DIR, 'data/contributors.csv')
 criteriaFile = os.path.join(DIR, 'data/criteria.csv')
+csv.field_size_limit(sys.maxsize)
 
 header = ['docid', 'headline','geography', 'industry', 'language', 'company', 'contributorid', 'contributor', 'category', 'downloads', 'views']
 contributorHeader = ['contributorid', 'contributor', 'totalContribution']
@@ -95,7 +97,7 @@ def packRecordObject(source, *args, **kwargs):#bad design
 				try:
 					recordObject.update(**record)
 				except TypeError:
-					print record
+					continue
 			else:
 				yield recordObject
 				recordObject = RecordObject(**record)
@@ -107,3 +109,5 @@ def readcsv(filepath, delimiter='\t', header=header):
 		reader = csv.DictReader(csvfile, delimiter='\t', fieldnames=header)
 		for line in reader:
 			yield line
+	
+
