@@ -33,10 +33,7 @@ def main():
 	for record in records:
 		criteriaHist += criteriaUsage(record.criteriaName)
 
-	print len(records)
-	for item in criteriaHist.items():
-		print item
-
+	
 if __name__ == '__main__':
 	sys.exit(main())
 

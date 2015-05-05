@@ -95,7 +95,7 @@ def packRecordObject(source, *args, **kwargs):#bad design
 				try:
 					recordObject.update(**record)
 				except TypeError:
-					print record
+					continue
 			else:
 				yield recordObject
 				recordObject = RecordObject(**record)
