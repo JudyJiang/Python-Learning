@@ -17,5 +17,13 @@ def run_test():
 	for case in test_lists:
 		print (reverse_words(case))
 
+'''
 if __name__ == '__main__':
 	run_test()
+'''
+
+x = [1, 2, 3]
+t = sum(map(lambda i: i**2, x))
+
+
+
